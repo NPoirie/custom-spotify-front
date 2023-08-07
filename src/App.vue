@@ -15,10 +15,11 @@
             to-black
         "
     >
-    <router-view/>
+      <router-view/>
     </div>
   </div>
 </template>
+
 <script>
 import SideMenu from '/src/components/navigations/SideMenu.vue'
 // import TopMenu from '/src/components/navigations/TopMenu.vue'
