@@ -1,8 +1,3 @@
-<script setup>
-import SideMenu from '/src/components/navigations/SideMenu.vue'
-// import TopMenu from '/src/components/navigations/TopMenu.vue'
-</script>
-
 <template>
   <div>
     <!-- <TopMenu /> -->
@@ -24,3 +19,12 @@ import SideMenu from '/src/components/navigations/SideMenu.vue'
     </div>
   </div>
 </template>
+<script>
+import SideMenu from '/src/components/navigations/SideMenu.vue'
+// import TopMenu from '/src/components/navigations/TopMenu.vue'
+export default {
+  components: { SideMenu }
+  // components: { TopMenu, SideMenu }
+}
+
+</script>

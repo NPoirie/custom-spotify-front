@@ -1,15 +1,13 @@
 <template>
   <div>
- 
-      <album-list/>
-
+    <album-list/>
   </div>
 </template>
+
 <script>
 import AlbumList from '../components/AlbumList/AlbumList.vue'
 export default {
   components: { AlbumList },
-
 }
 </script>
 
